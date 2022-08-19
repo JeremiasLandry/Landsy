@@ -65,3 +65,5 @@ $(window).load(function () { // makes sure the whole site is loaded
 	}
 
 });
+
+/*contact button fix for redirection*/
