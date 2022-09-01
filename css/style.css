@@ -80,6 +80,16 @@ figure {
     margin: 0;
 }
 
+html::-webkit-scrollbar{
+	width: 0.40rem;
+}
+html::-webkit-scrollbar-track{
+	background-color:#f3f3ef;
+}
+html::-webkit-scrollbar-thumb{
+	background-color:#1b98dc
+}
+
 /* Page Border */
 
 .page-border {
@@ -1433,6 +1443,7 @@ blockquote {
     position: relative;
     border: 10px solid #fff;
     max-height: 709px;
+    min-height: 625px;
 }
 
 
@@ -1492,6 +1503,11 @@ blockquote {
 }
 #thirdcard-btn{
     margin-top:0px
+}
+
+.mercadoPago-ctn img{
+    padding-top: 100px;
+    max-width: 500px;
 }
 /*------------------------------------------------------------------------------------------*/
 /*  CONTACT */
@@ -2366,6 +2382,10 @@ blockquote {
 
 }
 
-
-
-
+@media screen and (max-width: 768px){
+    .mercadoPago-ctn img{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 400px;
+    }
+}
